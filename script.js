@@ -1,4 +1,8 @@
-// Part 1: Fizz Buzz
+/* -------------------------------------------------------------------------- */
+/*                              PART 1: FIZZ BUZZ                             */
+/* -------------------------------------------------------------------------- */
+
+console.group("Part 1: Fizz Buzz");
 // To begin, solve the following classic “Fizz Buzz” problem. There are a few different ways to do this - experiment with what you think is the most efficient. Once you have solved the problem, ask yourself if there could be another way; and if so, would it be better.
 // Accomplish the following:
 // Loop through all numbers from 1 to 100.
@@ -24,3 +28,5 @@ for (let i = 1; i <= 100; i++) {
   if (i % 5 === 0) {output += 'Buzz'};
   console.log(output || i);
 } */
+
+  console.groupEnd();
